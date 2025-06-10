@@ -40,14 +40,14 @@ Clona el repositorio y ejecuta el servidor de desarrollo:
 - npm run dev
 - La aplicación estará disponible en *http://localhost:3000*
 
-📦 Scripts útiles
+## 📦 Scripts útiles
 npm run dev: inicia el entorno de desarrollo
 
 npm run build: construye la aplicación para producción
 
 npm run lint: ejecuta ESLint para verificar errores de estilo/código
 
-✨ Características
+## ✨ Características
 Arquitectura modular y escalable con App Router
 
 Interfaz moderna y responsive
@@ -56,5 +56,5 @@ Componente Modal reutilizable
 
 API interna con datos de ejemplo
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto es parte de un curso formativo y no está destinado a producción. Uso libre con fines educativos.
