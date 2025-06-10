@@ -41,20 +41,18 @@ Clona el repositorio y ejecuta el servidor de desarrollo:
 - La aplicación estará disponible en *http://localhost:3000*
 
 ## 📦 Scripts útiles
-npm run dev: inicia el entorno de desarrollo
 
-npm run build: construye la aplicación para producción
-
-npm run lint: ejecuta ESLint para verificar errores de estilo/código
+- npm run dev: inicia el entorno de desarrollo
+- npm run build: construye la aplicación para producción
+- npm run lint: ejecuta ESLint para verificar errores de estilo/código
 
 ## ✨ Características
-Arquitectura modular y escalable con App Router
 
-Interfaz moderna y responsive
-
-Componente Modal reutilizable
-
-API interna con datos de ejemplo
+- Arquitectura modular y escalable con App Router
+- Interfaz moderna y responsive
+- Componente Modal reutilizable
+- API interna con datos de ejemplo
 
 ## 📄 Licencia
-Este proyecto es parte de un curso formativo y no está destinado a producción. Uso libre con fines educativos.
+
+- Este proyecto es parte de un curso formativo y no está destinado a producción. Uso libre con fines educativos.
