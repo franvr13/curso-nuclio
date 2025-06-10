@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Curso Nuclio - Gestor de Plantas 🌿
 
-## Getting Started
+Este proyecto es una aplicación web construida con Next.js y TypeScript como parte de un curso de Nuclio. Su objetivo es mostrar una interfaz moderna para gestionar información sobre plantas, incluyendo visualización y detalles mediante una API integrada.
 
-First, run the development server:
+## 🛠 Tecnologías utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- API REST con rutas App Router (`/api/plants`)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estructura del proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+├── public/ # Archivos estáticos (SVGs)
+├── src/
+│ └── app/
+│ ├── components/
+│ │ ├── PlantList.tsx # Componente que lista las plantas
+│ │ └── PlantModal.tsx # Componente modal con información detallada
+│ ├── api/
+│ │ └── plants/
+│ │ └── route.ts # Ruta de API para obtener plantas
+│ ├── page.tsx # Página principal
+│ ├── layout.tsx # Estructura común de la app
+│ └── globals.css # Estilos globales
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── .gitignore
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Cómo ejecutar el proyecto
 
-## Learn More
+Clona el repositorio y ejecuta el servidor de desarrollo:
 
-To learn more about Next.js, take a look at the following resources:
+- git clone https://github.com/franvr13/curso-nuclio.git
+- cd curso-nuclio
+- npm install
+- npm run dev
+- La aplicación estará disponible en *http://localhost:3000*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Scripts útiles
+npm run dev: inicia el entorno de desarrollo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run build: construye la aplicación para producción
 
-## Deploy on Vercel
+npm run lint: ejecuta ESLint para verificar errores de estilo/código
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✨ Características
+Arquitectura modular y escalable con App Router
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Interfaz moderna y responsive
+
+Componente Modal reutilizable
+
+API interna con datos de ejemplo
+
+📄 Licencia
+Este proyecto es parte de un curso formativo y no está destinado a producción. Uso libre con fines educativos.
