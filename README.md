@@ -13,22 +13,25 @@ Este proyecto es una aplicación web construida con Next.js y TypeScript como pa
 
 ## 📁 Estructura del proyecto
 
-├── public/ # Archivos estáticos (SVGs)
+```
+curso-nuclio/
+├── public/             # Archivos estáticos (SVGs)
 ├── src/
-│ └── app/
-│ ├── components/
-│ │ ├── PlantList.tsx # Componente que lista las plantas
-│ │ └── PlantModal.tsx # Componente modal con información detallada
-│ ├── api/
-│ │ └── plants/
-│ │ └── route.ts # Ruta de API para obtener plantas
-│ ├── page.tsx # Página principal
-│ ├── layout.tsx # Estructura común de la app
-│ └── globals.css # Estilos globales
+│   └── app/
+│       ├── components/
+│       │   ├── PlantList.tsx       # Componente que lista las plantas
+│       │   └── PlantModal.tsx      # Componente modal con información detallada
+│       ├── api/
+│       │   └── plants/
+│       │       └── route.ts        # Ruta de API para obtener plantas
+│       ├── page.tsx                # Página principal
+│       ├── layout.tsx              # Estructura común de la app
+│       └── globals.css             # Estilos globales
 ├── package.json
 ├── tsconfig.json
 ├── next.config.ts
 └── .gitignore
+```
 
 ## 🚀 Cómo ejecutar el proyecto
 
